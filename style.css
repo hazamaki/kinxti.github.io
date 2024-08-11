@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.mc{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+
+}
+section {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+
+
+}
+
+body{
+    background-color:#222831;
+    
+}
+header{
+    display: flex;  
+    background-color: #00ADB5;
+    align-items: center;
+    flex-direction: column;
+    height: 70px;
+    position: sticky;
+}
+h1{
+    font-size: 30px;
+    color:white;font-family: 'Bebas Neue';
+    margin-bottom: -10px;
+    letter-spacing: 2px;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    
+      
+}
+
+main{
+    display: flex;
+    font-size: 50px;
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    
+}
+nav a{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    align-items: center;
+    padding-top: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(255, 255, 255);
+    margin-top: 13px;
+    letter-spacing: 1px;
+    
+}
+p{
+    display: flex;
+    color: #eeee;
+    font-family: 'Bebas Neue';
+    letter-spacing: 1px;
+    
+}
+.gif{
+    display:flex;
+    height: 250px;
+    margin-top: -220px;
+    justify-content: center;
+    margin-left: 50%;
+
+
+}
+nav a:hover{
+    color: yellow;
+
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 175px;
+    animation: arrow 6s infinite ease-in;
+    height: 1;
+
+}
+
+.arrow img{
+    height: 70px;
+}
+
+
+
+@keyframes arrow {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-80px);
+    }
+    60% {
+        transform: translateY(-55px);
+    }
+}
+
+
+
+.abt{
+    display: flex;
+    margin-top:2%;
+    font-size: 25px;
+    margin-right: 10%;
+    margin-bottom: 0%;
+    margin-left: 5%;
+}
+.jorn{
+    display:flex;
+
+
+
+}
+.jme{
+    display: flex;
+    justify-content: flex-end;
+    margin-right:25%;
+    margin-top: 2%;
+    text-decoration: underline white 2px;
+    margin-bottom:-20px;
+}
+.abtme{
+    display: flex;
+    justify-content: flex-start;
+    margin-left:25%;
+    margin-top: 2%;
+    text-decoration: underline white 2px;
+    
+}
+.gif2{
+    display: flex;
+    height: 250px;
+    margin-left:25%;
+}
+.gif3{
+    display: flex;
+    height: 250px;
+    margin-left:5%;
+    background-color: aliceblue;
+    width: fit-content;
+    margin-bottom:2%;
+    margin-right:25%;
+    
+
+}
+.jorn p{
+    display:flex;
+    margin-top:2%;
+    font-size: 25px;
+
+}
+
